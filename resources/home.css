@@ -1,6 +1,14 @@
 .top-banner img{
-  width: 100%
+  width: 100%;
 }
 .navbar {
-  background-color: #f8f9fa;
+  background-color: #4682b4;
+}
+
+.navbar .navbar-nav{
+  margin: auto;
+}
+
+.navbar ul li a{
+  color: white !important;
 }
