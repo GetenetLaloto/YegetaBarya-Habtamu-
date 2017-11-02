@@ -77,3 +77,37 @@
 
 .slideshow.hasHover:hover .button-wrapper {
   opacity: 1; }
+
+/*---------------------------------------------------------*/
+/* footer */
+
+  .footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 1rem;
+    background-color: #4682b4;
+    text-align: center;
+    font-size: 14px; }
+    .footer .footer-links {
+      margin-bottom: 3px; }
+      .footer .footer-links a:hover g {
+        fill: #535658; }
+      .footer .footer-links a {
+        text-decoration: none; }
+        .footer .footer-links a svg {
+          width: 28px; }
+      .footer .footer-links .button .hover {
+        display: none; }
+      .footer .footer-links .button:hover .no-hover {
+        display: none; }
+      .footer .footer-links .button:hover .hover {
+        display: inherit; }
+      .footer .footer-links span, .footer .footer-links a:not(:last-child) {
+        margin-right: 5px; }
+    .footer .copyright {
+      font-size: 12px; }
+
+  .footer.content-footer {
+    margin-top: 10px;
+    bottom: inherit; }
