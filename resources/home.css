@@ -1,9 +1,90 @@
-.top-banner img{
+.top-banner {
   width: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  /*display: inline-block;*/
+  /*display: flex;*/
+  padding: 15px;
 }
+.top-banner .inner{
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%*/
+}
+.top-banner .cross{
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+/*.inner{s
+  display: inline-block;
+  width: calc(50% - 30px);
+}*/
+
+
+.p{
+  color: white;
+}
+.h{
+  margin: 0;
+  display: inline-block;
+  color:white;
+}
+@media (min-width: 544px) {
+  .top-banner{
+    display: flex;
+  }
+  .top-banner .inner{
+    /*display: inline-block;*/
+    width: calc(50% - 30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+  }
+
+}
+@media (min-width: 544px) {
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .pray, .testimony{
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+  .video{
+    display: flex;
+    justify-content: center;
+
+  }
+}
+.donate{
+  margin: 10px auto;
+  text-align: center;
+}
+iframe{
+  margin: 10px;
+
+}
+
+
+
+
+/*.pray, .testimony{
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 100px;
+}*/
+
 .navbar {
   background-color: #4682b4;
 }
+
+
 
 .navbar .navbar-nav{
   margin: auto;
