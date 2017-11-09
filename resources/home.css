@@ -2,13 +2,27 @@
   width: 100%;
   background-size: cover;
   background-position: 50% 50%;
+  /*display: inline-block;*/
+  /*display: flex;*/
   padding: 15px;
+}
+.top-banner .inner{
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%*/
 }
 .top-banner .cross{
   width: 40px;
   display: inline-block;
   margin-right: 10px;
 }
+/*.inner{s
+  display: inline-block;
+  width: calc(50% - 30px);
+}*/
+
+
 .p{
   color: white;
 }
@@ -17,25 +31,21 @@
   display: inline-block;
   color:white;
 }
-.video{
-  padding: 0 15px;
-}
-.video iframe{
-  margin: 10px auto;
-  width: 100%;
-}
-
 @media (min-width: 544px) {
   .top-banner{
     display: flex;
   }
   .top-banner .inner{
+    /*display: inline-block;*/
     width: calc(50% - 30px);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%
   }
+
+}
+@media (min-width: 544px) {
   .container{
     width: 100%;
     display: flex;
@@ -47,25 +57,39 @@
     margin-left: 100px;
   }
   .video{
-    padding: 0 15px;
     display: flex;
-    justify-content:space-between;
-  }
-  .video iframe{
-    width: 19%;
+    justify-content: center;
+
   }
 }
 .donate{
   margin: 10px auto;
   text-align: center;
 }
+iframe{
+  margin: 10px;
+
+}
+
+
+
+
+/*.pray, .testimony{
+  display: inline-block;
+  margin-right: 100px;
+  margin-left: 100px;
+}*/
 
 .navbar {
   background-color: #4682b4;
 }
+
+
+
 .navbar .navbar-nav{
   margin: auto;
 }
+
 .navbar ul li a{
   color: white !important;
 }
@@ -112,20 +136,20 @@
     height: 100%;
     opacity: 0; }
   .slideshow .image-wrapper {
+    overflow: hidden;
+    display: flex;
     position: absolute;
     justify-content: center;
     background-color: gray;
     width: 100%;
     height: 100%; }
-    .slideshow .image-wrapper .slide{
+    .slideshow .image-wrapper img {
+      overflow: hidden;
       position: absolute;
-      background-size: auto 100%;
-      background-position: 50% 50%;
-      height: 100%;
-      width: 100%;
-      background-repeat: no-repeat;
-      opacity: 0
-    }
+      /*width: 100vw;*/
+      max-height: 100%;
+      z-index: -1;
+      opacity: 0; }
     .slideshow .image-wrapper .fade-trans {
       transition: opacity 1s; }
     .slideshow .image-wrapper .active {
