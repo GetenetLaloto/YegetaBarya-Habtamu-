@@ -126,6 +126,9 @@
       background-repeat: no-repeat;
       opacity: 0
     }
+    .slideshow .image-wrapper .image{
+      width: auto;
+    }
     .slideshow .image-wrapper .fade-trans {
       transition: opacity 1s; }
     .slideshow .image-wrapper .active {
