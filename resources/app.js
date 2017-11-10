@@ -77,7 +77,7 @@
     }
     // ---------------------------------------------------------------
     timeoutFunctions = []; //holds the variables for timeout funtion
-    
+
     // function changes slides in targetSlideshow
     window.changeSlide = function(change = 1, targetSlideshow, manuelChange = false) {
       var current, index, length, speed;
@@ -112,3 +112,12 @@
   });
 
 }).call(this);
+
+function whatsapp(formType){
+  name = formType=='pray' ? $('#prayName').val() : $('#tesName').val()
+  email = formType=='pray' ? $('#prayEmail').val() : ''
+  number = formType=='pray' ? $('#prayNum').val() : $('#tesNum').val()
+  text = formType=='pray' ? $('#prayText').val() : $('#tesText').val()
+  var u = encodeURI('Hi habtamu my name is: '+ name + ', My email adress is : '+ email + ' ,  My phone number is : ' + number + ',  Here is my pray request text: ' + text )
+  window.location =("https://api.whatsapp.com/send?phone=13477403325&text="+ u)
+}
