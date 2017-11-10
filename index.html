@@ -112,19 +112,17 @@ current=0 data-length=7>
 <!-- forms	 -->
 <div class="container ">
 	<div class="pray">
-		<h4>PRAYER REQUEST </h4>
-		<h5>Full Name/ሙሉ ስም</h5>
-		<input type="text" name="">
-		<h5>E-mail/ኢሜይል(*)</h5>
-		<input type="text" name="">
-		<H5>Mobile No./የሞባይል(*)</H5>
-		<input type="text" name="">
-		<h5>Prayer Request:</h5>
-		<textarea class="form-control"  rows="3"></textarea>
-		<br>
-		<button>Submit</button>
-	</div>
-
+            <h4>PRAYER REQUEST </h4>
+            <h5>Full Name/ሙሉ ስም</h5>
+            <input type="text" name="" id="prayName">
+            <h5>E-mail/ኢሜይል(*)</h5>
+            <input type="text" name="" id="prayEmail">
+            <H5>Mobile No./የሞባይል(*)</H5>
+            <input type="text" name="" id="prayNum">
+            <h5>Prayer Request:</h5>
+<textarea class="form-control"  rows="3" id='prayText'></textarea>
+<br>
+<button onclick='whatsapp("pray")'>Submit</button>
 	<div class="testimony">
 		<h4>Your Testimony </h4>
 		<h5>Full Name/ሙሉ ስም</h5>
