@@ -73,6 +73,7 @@
 /*---------------------------------------------------------*/
 /* slideshow */
 .slideshow {
+  overflow: hidden;
   display: flex;
   position: relative;
   justify-content: center;
@@ -119,12 +120,17 @@
     height: 100%; }
     .slideshow .image-wrapper .slide{
       position: absolute;
-      background-size: auto 100%;
+      background-size: cover;
       background-position: 50% 50%;
       height: 100%;
       width: 100%;
       background-repeat: no-repeat;
-      opacity: 0
+      opacity: 0;
+      filter: blur(10px);
+    }
+    .slideshow .image-wrapper .image{
+      background-size: auto 100%;
+      filter: blur(0px);
     }
     .slideshow .image-wrapper .fade-trans {
       transition: opacity 1s; }
