@@ -118,6 +118,6 @@ function whatsapp(formType){
   email = formType=='pray' ? $('#prayEmail').val() : ''
   number = formType=='pray' ? $('#prayNum').val() : $('#tesNum').val()
   text = formType=='pray' ? $('#prayText').val() : $('#tesText').val()
-  var u = encodeURI('name: '+ name + ' email: ' + email + ' number: ' + number + ' text: ' + text )
+  var u = encodeURI('Hi habtamu my name is: '+ name + ', My email adress is : '+ email + ' ,  My phone number is : ' + number + ',  Here is my pray request text: ' + text )
   window.location =("https://api.whatsapp.com/send?phone=13477403325&text="+ u)
 }
