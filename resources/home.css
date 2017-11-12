@@ -13,12 +13,12 @@ body{
   margin-right: 10px;
 }
 .p{
-  color: white;
+  color: #e9ebee;
 }
 .h{
   margin: 0;
   display: inline-block;
-  color:white;
+  color: #e9ebee;
 }
 .video{
   padding: 0 15px;
@@ -118,7 +118,7 @@ body{
   margin: auto;
 }
 .navbar ul li a{
-  color: white !important;
+  color: #e9ebee !important;
 }
 
 /*---------------------------------------------------------*/
