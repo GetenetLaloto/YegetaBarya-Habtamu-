@@ -22,14 +22,15 @@ body{
 }
 .video{
   padding: 0 15px;
+  margin: 25px 0;
 }
 .video iframe{
-  margin: 10px auto;
+  /*margin: 10px auto;*/
   width: 100%;
 }
 
 .container{
-  padding: 0;
+  padding: 15px 0;
 }
 .container .pray, .container .testimony{
   background-color: #f3f5f8;
@@ -52,9 +53,9 @@ body{
   padding: 15px;
 }
 .container .btn.what-btn{
-  background-color: #00f478;
+  background-color: #00c05e;
   color: #fff;
-  border-color: #00c05e
+  border-color: #00823f
 }
 
 @media (min-width: 544px) {
@@ -71,6 +72,8 @@ body{
   .container{
     width: 100%;
     display: flex;
+    border-bottom: solid 1px #bababa;
+    border-top: solid 1px #bababa;
   }
   .container .pray, .container .testimony{
     display: inline-block;
