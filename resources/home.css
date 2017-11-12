@@ -28,6 +28,35 @@ body{
   width: 100%;
 }
 
+.container{
+  padding: 0;
+}
+.container .pray, .container .testimony{
+  background-color: #f3f5f8;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.container .title{
+  font-size: 1.35rem;
+  background-color: #bababa;
+  padding: 20px;
+  width: 100%;
+  border-color: #dddfe2;
+}
+.container .form-wrapper{
+  font-size: 1.1rem;
+  padding: 15px;
+}
+.container .btn.what-btn{
+  background-color: #00f478;
+  color: #fff;
+  border-color: #00c05e
+}
+
 @media (min-width: 544px) {
   .top-banner{
     display: flex;
@@ -42,12 +71,10 @@ body{
   .container{
     width: 100%;
     display: flex;
-    justify-content: center;
   }
-  .pray, .testimony{
+  .container .pray, .container .testimony{
     display: inline-block;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: 0 auto;
   }
   .video{
     padding: 0 15px;
@@ -59,7 +86,7 @@ body{
   }
 }
 .donate{
-  margin: 10px auto;
+  margin: 20px auto;
   text-align: center;
 }
 

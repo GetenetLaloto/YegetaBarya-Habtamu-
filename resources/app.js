@@ -110,7 +110,6 @@
       changeSlide(1, this, false);
     });
   });
-
 }).call(this);
 
 function whatsapp(formType){
