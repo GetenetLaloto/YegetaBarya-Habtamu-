@@ -1,3 +1,6 @@
+body{
+  background-color: #e9ebee;
+}
 .top-banner {
   width: 100%;
   background-size: cover;
@@ -62,6 +65,7 @@
 
 .navbar {
   background-color: #4682b4;
+  border: 1px solid #386890;
 }
 .navbar .navbar-nav{
   margin: auto;
@@ -150,6 +154,7 @@
     bottom: 0;
     padding: 1rem;
     background-color: #4682b4;
+    border: 1px solid #274965;
     text-align: center;
     font-size: 14px; }
     .footer .footer-links {
