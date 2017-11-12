@@ -43,7 +43,7 @@ body{
 
 .container .title{
   font-size: 1.35rem;
-  background-color: #bababa;
+  background-color: #dcdcdc;
   padding: 20px;
   width: 100%;
   border-color: #dddfe2;
@@ -53,9 +53,25 @@ body{
   padding: 15px;
 }
 .container .btn.what-btn{
+  cursor: pointer;
   background-color: #00c05e;
   color: #fff;
   border-color: #00823f
+}
+.container .btn.what-btn:hover{
+  background-color: #00a651;
+  border-color: #00823f
+}
+.donate .btn-donate{
+  color: #111;
+  background-color: #ffe705;
+  border-color: #edd705;
+  font-size: 1.35rem;
+}
+.donate .btn-donate:hover{
+  cursor: pointer;
+  background-color: #f3dc05;
+  border-color: #e1cc05;
 }
 
 @media (min-width: 544px) {
@@ -70,6 +86,7 @@ body{
     height: 100%
   }
   .container{
+    padding: 35px 0;
     width: 100%;
     display: flex;
     border-bottom: solid 1px #bababa;
