@@ -71,6 +71,7 @@ body{
   background-color: #ffe705;
   border-color: #edd705;
   font-size: 1.35rem;
+  padding: 15px 20px;
 }
 .donate .btn-donate:hover{
   cursor: pointer;
