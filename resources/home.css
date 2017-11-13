@@ -219,6 +219,7 @@ body{
       .footer .footer-links a {
         text-decoration: none; }
         .footer .footer-links a svg {
+          border-radius: 4px;
           width: 28px; }
       .footer .footer-links .button .hover {
         display: none; }
