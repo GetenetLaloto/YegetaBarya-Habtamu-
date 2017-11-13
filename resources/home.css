@@ -235,3 +235,11 @@ body{
   .footer.content-footer {
     margin-top: 10px;
     bottom: inherit; }
+.credit a{
+  text-decoration: none;
+  font-size: .6rem;
+  color: black;
+}
+.credit a:hover{
+  opacity: .5;
+}
