@@ -78,6 +78,10 @@ body{
   background-color: #f3dc05;
   border-color: #e1cc05;
 }
+.subscribe{
+  width: 100%;
+  min-height: 300px;
+}
 
 @media (min-width: 544px) {
   .line{
@@ -107,6 +111,8 @@ body{
   .subscribe{
     margin: 20px auto;
     text-align: center;
+    max-width: 500px;
+    min-height:500px;
   }
   .video{
     padding: 0 15px;
