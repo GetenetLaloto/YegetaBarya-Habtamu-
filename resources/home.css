@@ -87,6 +87,10 @@ body{
   .top-banner{
     display: flex;
   }
+  .map{
+    margin-left: 30px
+
+  }
   .top-banner .inner{
     width: calc(50% - 30px);
     display: flex;
@@ -101,8 +105,24 @@ body{
     display: flex;
     justify-content: space-evenly;
   }
+  .mapcontact{
+    max-width: inherit;
+    padding: 35px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
   .container .pray, .container .testimony{
     display: inline-block;
+  }
+  .mapcontact .map, .mapcontact .contact{
+    display: inline-block;
+  }
+  .subscribe{
+    margin: 20px auto;
+    text-align: center;
+
+
   }
   .video{
     padding: 0 15px;
