@@ -294,3 +294,14 @@ body{
         .map-box .information-wrapper .information {
           width: 35%;
           margin: 0 0 0 10px; } }
+
+
+/*discipleship*/
+.pdf-stuff{
+  margin: auto;
+  width: 85%;
+}
+.pdf-stuff iframe{
+  width: 100%;
+  min-height: 80vh;
+}
