@@ -82,6 +82,13 @@ body{
   width: 100%;
   min-height: 300px;
 }
+.subscribe .youtube_subscribe{
+  display: flex;
+  justify-content: center;
+}
+.subscribe h4{
+  margin-right: 7px;
+}
 
 @media (min-width: 544px) {
   .line{
