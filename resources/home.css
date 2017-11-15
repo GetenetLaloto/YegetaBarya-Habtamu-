@@ -87,10 +87,6 @@ body{
   .top-banner{
     display: flex;
   }
-  .map{
-    margin-left: 30px
-
-  }
   .top-banner .inner{
     width: calc(50% - 30px);
     display: flex;
@@ -105,24 +101,12 @@ body{
     display: flex;
     justify-content: space-evenly;
   }
-  .mapcontact{
-    max-width: inherit;
-    padding: 35px 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-  }
   .container .pray, .container .testimony{
-    display: inline-block;
-  }
-  .mapcontact .map, .mapcontact .contact{
     display: inline-block;
   }
   .subscribe{
     margin: 20px auto;
     text-align: center;
-
-
   }
   .video{
     padding: 0 15px;
@@ -263,3 +247,37 @@ body{
 .credit a:hover{
   opacity: .5;
 }
+
+
+/*map*/
+.map-box {
+  width: 98%;
+  margin: 10px 1%; }
+  .map-box .title {
+    margin: auto;
+    width: 80%;
+    border-bottom: solid gray 1px;
+    text-align: center;
+    font-size: 55px; }
+    @media (min-width: 768px) {
+      .map-box .title {
+        font-size: 65px; } }
+  .map-box .information-wrapper {
+    padding-top: 10px;
+    width: 100%;
+    margin: 10px auto; }
+    .map-box .information-wrapper .map {
+      width: 100%;
+      min-height: 250px; }
+    .map-box .information-wrapper .information {
+      text-align: center; }
+    @media (min-width: 768px) {
+      .map-box .information-wrapper {
+        width: 80%;
+        display: flex;
+        justify-content: center; }
+        .map-box .information-wrapper .map {
+          width: 65%; }
+        .map-box .information-wrapper .information {
+          width: 35%;
+          margin: 0 0 0 10px; } }
