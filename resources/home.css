@@ -119,7 +119,8 @@ body{
     display: inline-block;
   }
   .subscribe{
-    margin-left: 250px
+    margin: 20px auto;
+    text-align: center;
 
 
   }
