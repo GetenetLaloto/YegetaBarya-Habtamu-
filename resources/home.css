@@ -146,7 +146,7 @@ body{
 }
 
 .navbar {
-  background-color: #4682b4;
+  background-color: #E27D60;
   border: 1px solid #386890;
 }
 .navbar .navbar-nav{
@@ -235,7 +235,7 @@ body{
     width: 100%;
     bottom: 0;
     padding: 1rem;
-    background-color: #4682b4;
+    background-color: #E27D60;
     border: 1px solid #274965;
     text-align: center;
     font-size: 14px; }
