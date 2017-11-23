@@ -89,15 +89,12 @@ body{
 .subscribe h4{
   margin-right: 7px;
 }
-
-@media (min-width: 544px) {
-  .alert {
-    padding: 20px;
-    background-color: #E27D60;
-    color: white;
-  }
-
-  .closebtn {
+.alert {
+  padding: 20px;
+  background-color: #E27D60;
+  color: white;
+ }
+ .closebtn {
     margin-left: 15px;
     color: white;
     font-weight: bold;
@@ -111,7 +108,7 @@ body{
   .closebtn:hover {
     color: black;
   }
-
+@media (min-width: 544px) {
   #song {
     text-align: center;
     padding-top: 10px;
