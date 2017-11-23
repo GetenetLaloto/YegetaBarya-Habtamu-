@@ -127,3 +127,4 @@ function whatsapp(formType){
 
   window.location =("https://api.whatsapp.com/send?phone=13478397738&text="+ u)
 }
+alert("God bless you on this day of thanks, with love in your heart, faith, and grace. Happy Thanksgiving! From yegeta Barya Habtamu Ministry")
