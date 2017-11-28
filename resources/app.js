@@ -129,3 +129,4 @@ function whatsapp(formType){
 
   window.location =("https://api.whatsapp.com/send?phone=13478397738&text="+ u)
 }
+
