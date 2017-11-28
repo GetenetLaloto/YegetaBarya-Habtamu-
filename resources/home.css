@@ -1,5 +1,6 @@
 body{
   background-color: #e9ebee;
+  font-family: 'Spectral SC', serif;
 }
 .line{
   width: 0%;
@@ -109,15 +110,29 @@ body{
     color: black;
   }
 @media (min-width: 544px) {
-  #song {
-    text-align: center;
-    padding-top: 10px;
-    justify-content: center;
-    align-items: center;
 
-
-
+  .alert {
+    padding: 20px;
+    background-color: #4abdac;
+    color: white;
   }
+
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .closebtn:hover {
+    color: black;
+  }
+
+
   .line{
     width: 100%;
     border-top: 1px solid #bababa;
@@ -163,7 +178,8 @@ body{
 }
 
 .navbar {
-  background-color: #E27D60;
+
+  background-color: #4Abdac;
   border: 1px solid #386890;
 }
 .navbar .navbar-nav{
