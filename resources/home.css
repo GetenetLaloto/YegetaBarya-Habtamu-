@@ -332,3 +332,25 @@ body{
   width: 100%;
   min-height: 80vh;
 }
+
+/*gallery*/
+.full-gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; }
+  .full-gallery .image-square {
+    color: white;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 18em;
+    min-width: 100%; }
+    .full-gallery .image-square .text {
+      margin: auto auto 10px 10px; }
+    @media (min-width: 576px) {
+      .full-gallery .image-square {
+        min-width: 50%; } }
+    @media (min-width: 992px) {
+      .full-gallery .image-square {
+        min-width: 33.3333%; } }
