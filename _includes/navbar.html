@@ -22,24 +22,11 @@ z-index: -99999;opacity: 0; width: 100%; '>
       <li class="nav-item">
         <a class="navbar-brand" href="{{root}}/">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/Ministry">Ministry</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/discipleship">Discipleship</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/media">Media</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contact">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/gallery">Gallery</a>
-      </li>
+      {% for link in site.data.data.navbar.links %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{link[1]}}">{{link[0]}}</a>
+        </li>
+      {% endfor %}
     </ul>
   </ul>
 </div>
