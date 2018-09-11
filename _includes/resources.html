@@ -1,0 +1,8 @@
+<!-- partial represents all resources a page might need (css, and js) -->
+{% for css in page.css %}
+  <link rel="stylesheet" href="/resources/css/{{css}}">
+{% endfor %}
+
+{% for js in page.js %}
+  <script src='{{js}}'></script>
+{% endfor %}

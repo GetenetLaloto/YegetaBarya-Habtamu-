@@ -5,6 +5,7 @@ metadata:
   url: "http://www.yegetabaryahabtamu.org"
   image: "/resources/church/img_2.JPG"
 navbar:
+  title: "Yegeta Barya Habtamu Gospel Ministry"
   links:
     Home: '/'
     About: '/about'
@@ -12,4 +13,4 @@ navbar:
     Discipleship: '/discipleship'
     Media: '/media'
     Contact: '/contact'
-    Gallery: '/gallery'    
+    Gallery: '/gallery'
