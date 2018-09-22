@@ -1,0 +1,9 @@
+<div class='gallery-wrapper'>
+  {% for imgSRC in site.data[page.data_file].gallery.images %}
+    <div class='image loading lazy' data-src='{{imgSRC}}' data-imgsrc='{{imgSRC}}'></div>
+  {% endfor %}
+</div>
+<div class='full-image-wrapper'>
+  <div class='image wrapper'>
+  </div>
+</div>

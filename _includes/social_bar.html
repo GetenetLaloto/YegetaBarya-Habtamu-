@@ -1,0 +1,5 @@
+<div class='social-bar'>
+  {% for social_site in site.data[page.data_file].social_bar %}
+    <a href='{{social_site[1]}}'><div class='icon {{social_site[0]}}-icon'></div></a>
+  {% endfor %}
+</div>

@@ -1,0 +1,17 @@
+metadata:
+  title: "Yegeta Barya Habtamu Ministry"
+  description: "Yegeta Barya Habtamu Ministry"
+  keywords: "Yegeta Barya, Ministry, information"
+  url: "http://www.yegetabaryahabtamu.org"
+  image: "/resources/images/church/img_2.JPG"
+css: /resources/css/ministry.css
+navbar:
+  title: "Yegeta Barya Habtamu Gospel Ministry"
+  links:
+    Home: '/'
+    About: '/about'
+    Ministry: '/ministry'
+    Discipleship: '/discipleship'
+    Media: '/media'
+    Contact: '/contact'
+    Gallery: '/gallery'

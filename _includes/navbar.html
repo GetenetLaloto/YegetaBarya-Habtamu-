@@ -1,42 +1,17 @@
-<img class='image-search top-banner' src='{{root}}/resources/church/img_3.JPG' style='position: absolute;
-z-index: -99999;opacity: 0; width: 100%; '>
-<!-- top banner -->
-<div class='top-banner' style='background-image:url("{{root}}/resources/background.jpg")'>
-  <div class="inner">
-    <img class="cross" src="http://animagehub.com/wp-content/uploads/2016/08/cross-vector-1.jpeg">
-    <h4 class="h">Yegeta Barya Habtamu <u>Gospel</u> Ministry</h4>
-  </div>
-  <div class="inner">
-    <span><h5 class="h">"And he said to them, “Go into all the world and proclaim the gospel to the whole creation". </h5><p class="p">Mark 16:15</p></span>
-  </div>
-</div>
-
-<!-- NAVBAR -->
-<!-- <nav class="navbar navbar-expand-lg navbar-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="navbar-brand" href="{{root}}/">Home</a>
-      </li>
-      {% for link in site.data.data.navbar.links %}
-        <li class="nav-item">
-          <a class="nav-link" href="{{link[1]}}">{{link[0]}}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </ul>
-</div>
-</nav> -->
-<nav>
+<nav class='nav-bar'>
   <div class='title-wrapper'>
-    <a class='title' href='/'>{{site.data.data.navbar.title}}</a>
+    <a class='title' href='/'>{{site.data[page.data_file].navbar.title}}</a>
+    <div class='menu-icon'>
+      <div class='hamburger-menu'>
+        <div class='line top'></div>
+        <div class='line middle'></div>
+        <div class='line bottom'></div>
+      </div>
+    </div>
   </div>
-  <div class='links-list'>
+  <div class='nav-list-wrapper'>
     <ul class='nav-links'>
-      {% for link in site.data.data.navbar.links %}
+      {% for link in site.data[page.data_file].navbar.links %}
         <li class="nav-item">
           <a class="nav-link" href="{{link[1]}}">{{link[0]}}</a>
         </li>

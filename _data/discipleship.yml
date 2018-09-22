@@ -1,0 +1,17 @@
+metadata:
+  title: "Yegeta Barya Habtamu Ministry Discipleship"
+  description: "Yegeta Barya Habtamu Ministry Discipleship"
+  keywords: "Yegeta Barya, Ministry, Discipleship"
+  url: "http://www.yegetabaryahabtamu.org"
+  image: "/resources/images/church/img_2.JPG"
+css: /resources/css/discipleship.css
+navbar:
+  title: "Yegeta Barya Habtamu Gospel Ministry Discipleship"
+  links:
+    Home: '/'
+    About: '/about'
+    Ministry: '/ministry'
+    Discipleship: '/discipleship'
+    Media: '/media'
+    Contact: '/contact'
+    Gallery: '/gallery'

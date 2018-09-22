@@ -1,0 +1,20 @@
+metadata:
+  title: "About Yegeta Barya Habtamu Ministry"
+  description: "About Yegeta Barya Habtamu Ministry"
+  keywords: "Yegeta Barya, Ministry, About"
+  url: "http://www.yegetabaryahabtamu.org"
+  image: "/resources/images/church/img_2.JPG"
+css: /resources/css/about.css
+js:
+  - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+  - /resources/js/about.js
+navbar:
+  title: "Yegeta Barya Habtamu Gospel Ministry"
+  links:
+    Home: '/'
+    About: '/about'
+    Ministry: '/ministry'
+    Discipleship: '/discipleship'
+    Media: '/media'
+    Contact: '/contact'
+    Gallery: '/gallery'
