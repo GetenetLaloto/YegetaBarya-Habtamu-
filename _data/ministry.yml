@@ -5,6 +5,9 @@ metadata:
   url: "http://www.yegetabaryahabtamu.org"
   image: "/resources/images/church/img_2.JPG"
 css: /resources/css/ministry.css
+js:
+  - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+  - /resources/js/ministry.js
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"
   links:
