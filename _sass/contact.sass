@@ -1,0 +1,36 @@
+.contact-wrapper
+  width: 100%
+  padding: 10px
+  margin-top: 10px
+  .map-wrapper
+    width: 90%
+    margin: auto
+    position: relative
+    .map
+      width: 100%
+    .divider
+      display: none
+  .info-wrapper
+    width: 100%
+    text-align: center
+  +large-devices
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 90%
+    margin: 10px 10%
+    .map-wrapper
+      width: 50%
+      margin-right: 30px
+      display: inline-block
+      .divider
+        display: block
+        position: absolute
+        right: -15px
+        top: 12.5%
+        height: 75%
+        border-left: 1px solid #e3dfd7
+    .info-wrapper
+      width: 50%
+      text-align: left
+      display: inline-block

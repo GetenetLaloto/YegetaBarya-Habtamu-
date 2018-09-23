@@ -1,0 +1,12 @@
+<div class='contact-wrapper'>
+  <div class='map-wrapper'>
+    <iframe class="map" frameborder="0" src="https://www.google.com/maps/embed/v1/search?key=AIzaSyD8Qy5YSFULtk-ONEk1-Ds_p5Ubt5WuilI&amp;{{site.data[page.data_file].contact.query}}" allowfullscreen=""></iframe>
+    <div class='divider'></div>  
+  </div>
+  <div class='info-wrapper'>
+    <h3>{{site.data[page.data_file].contact.title}}</h3>
+    {% for text in site.data[page.data_file].contact.text %}
+      <p>{{text}}</p>
+    {% endfor %}
+  </div>
+</div>
