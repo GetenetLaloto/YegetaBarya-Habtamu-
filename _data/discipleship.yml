@@ -10,6 +10,11 @@ js:
   - /resources/js/discipleship.js
 javascript_partials:
   - partial_assets/js/navbar.js
+sass_partials:
+  - 'defaults.sass'
+  - 'sizes.sass'
+  - 'mixins.sass'
+  - 'navbar.sass'
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"
   links:

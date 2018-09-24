@@ -10,6 +10,13 @@ js:
   - /resources/js/contact.js
 javascript_partials:
   - partial_assets/js/navbar.js
+sass_partials:
+  - 'defaults.sass'
+  - 'sizes.sass'
+  - 'mixins.sass'
+  - 'navbar.sass'
+  - 'contact.sass'
+  - 'social_bar.sass'
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"
   links:
