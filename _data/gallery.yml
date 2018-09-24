@@ -8,7 +8,6 @@ css: /resources/css/gallery.css
 js:
   - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
   - //cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js
-  - //cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js
   - /resources/js/gallery.js
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"

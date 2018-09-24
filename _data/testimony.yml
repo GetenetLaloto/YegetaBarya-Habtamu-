@@ -1,13 +1,13 @@
 metadata:
-  title: "Yegeta Barya Habtamu Ministry Discipleship"
-  description: "Yegeta Barya Habtamu Ministry Discipleship"
-  keywords: "Yegeta Barya, Ministry, Discipleship"
+  title: "Yegeta Barya Habtamu Ministry Testimony Form"
+  description: "Yegeta Barya Habtamu Ministry Testiony Form"
+  keywords: "Yegeta Barya, Ministry, Testimony, form, email, contact"
   url: "http://www.yegetabaryahabtamu.org"
   image: "/resources/images/church/img_2.JPG"
-css: /resources/css/discipleship.css
+css: /resources/css/testimony.css
 js:
   - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
-  - /resources/js/discipleship.js
+  - /resources/js/testimony.js
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"
   links:

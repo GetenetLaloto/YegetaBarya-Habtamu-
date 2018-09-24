@@ -1,13 +1,13 @@
 metadata:
-  title: "Yegeta Barya Habtamu Ministry Discipleship"
-  description: "Yegeta Barya Habtamu Ministry Discipleship"
-  keywords: "Yegeta Barya, Ministry, Discipleship"
+  title: "Yegeta Barya Habtamu Ministry Prayer Request"
+  description: "Yegeta Barya Habtamu Ministry Prayer Request"
+  keywords: "Yegeta Barya, Ministry, Prayer Request, form, email, contact"
   url: "http://www.yegetabaryahabtamu.org"
   image: "/resources/images/church/img_2.JPG"
-css: /resources/css/discipleship.css
+css: /resources/css/prayer.css
 js:
   - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
-  - /resources/js/discipleship.js
+  - /resources/js/prayer.js
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"
   links:
