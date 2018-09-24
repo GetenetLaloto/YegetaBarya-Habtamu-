@@ -1,4 +1,5 @@
 ---
+data_file: discipleship
 ---
 
-{% include partial_assets/js/navbar.js %}
+{% include partial_assets/javascript_partials.js %}

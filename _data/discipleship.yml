@@ -8,6 +8,8 @@ css: /resources/css/discipleship.css
 js:
   - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
   - /resources/js/discipleship.js
+javascript_partials:
+  - partial_assets/js/navbar.js
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"
   links:
