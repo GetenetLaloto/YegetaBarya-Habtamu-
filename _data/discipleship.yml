@@ -15,11 +15,12 @@ sass_partials:
   - 'sizes.sass'
   - 'mixins.sass'
   - 'navbar.sass'
+  - 'button_link.sass'
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"
   links:
     Home: '/'
-    About: '/about'
+    # About: '/about'
     Ministry: '/ministry'
     Discipleship: '/discipleship'
     Media: '/media'

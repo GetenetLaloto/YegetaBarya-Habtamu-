@@ -4,14 +4,9 @@ title: Discipleship
 permalink: /discipleship
 data_file: discipleship
 ---
-<div class='pdf-stuff'>
-<iframe src="http://docs.google.com/gview?url=http://www.yegetabaryahabtamu.org/resources/first.pdf&embedded=true"></iframe>
-<iframe src="http://docs.google.com/gview?url=http://www.yegetabaryahabtamu.org/resources/second.pdf&embedded=true"></iframe>
+<div class='button-wrapper'>
+  {% include button_link.html link='#first' text='first' alt=true extraclass='first'%}
+  {% include button_link.html link='#second' text='second' alt=true extraclass='second'%}
 </div>
-
-
-<!-- <object data='{{root}}/resources/first.pdf' type="application/pdf" width="45%" height="50%">
-</object>
-
-<object data='{{root}}/resources/second.pdf' type="application/pdf" width="45%" height="50%">
-</object> -->
+<div class='pdf-wrapper'>
+<iframe src=""></iframe>

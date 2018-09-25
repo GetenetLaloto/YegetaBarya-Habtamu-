@@ -8,3 +8,6 @@ compress_html:
   endings:   all
 plugins:
   - jekyll-sitemap
+exclude:
+  - CNAME
+  - README.md
