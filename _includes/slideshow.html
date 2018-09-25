@@ -1,0 +1,17 @@
+<div class='slideshow-wrapper'>
+  <div class='button-wrapper left'>
+    <div class='chevron-icon'></div>
+  </div>
+  <div class='button-wrapper right'>
+    <div class='chevron-icon'></div>
+  </div>
+  <div class='photo-wrapper'>
+    <div class='photo-strip'>
+      {% for image_src in site.data[page.data_file].slideshow.image %}
+        <div class='image-wrapper loading lazy' data-src='{{image_src}}'>
+          <img class='img' data-src='{{image_src}}'/>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,87 @@
+.button-wrapper
+  display: none
+  z-index: 10
+  width: 25%
+  height: 100%
+  position: absolute
+  opacity: 0
+  transition: opacity 300ms
+  display: flex
+  align-items: center
+  justify-content: center
+  cursor: pointer
+  .chevron-icon
+    width: 100%
+    height: 40px
+    -webkit-mask-size: cover
+    mask-size: cover
+    -webkit-marsk-size: cover
+    background-color: rgb(85, 85, 85)
+  &:hover
+    opacity: 1
+  &.left
+    left: 0
+    .chevron-icon
+      -webkit-mask: url('/resources/images/svg/chevron-left.svg') 50% 50% no-repeat
+  &.right
+    right: 0
+    .chevron-icon
+      -webkit-mask: url('/resources/images/svg/chevron-right.svg') 50% 50% no-repeat
+
+.slideshow-wrapper
+  position: relative
+.photo-wrapper
+  min-width: 100vw
+  max-width: 100vw
+  min-height: 450px
+  max-height: 450px
+  overflow: scroll
+  -webkit-overflow-scrolling: touch
+  overflow-y: hidden
+  .photo-strip
+    display: inline-flex
+    height: 450px
+    // flex-direction: column
+    // +medium-devices
+    flex-direction: row
+    .image-wrapper
+      display: flex
+      width: 100vw
+      position: relative
+      height: 450px
+      background-size: 0
+      &.loading::before
+        content: ""
+        position: absolute
+        width: 100%
+        height: 100%
+        background-image: url('/resources/images/svg/gradient.svg')
+        background-size: cover
+        background-repeat: no-repeat
+      img
+        margin: auto
+        align-self: center
+        max-width: 100%
+        max-height: 100%
+        width: auto
+        height: auto
+        opacity: 0
+      &:not(.loading)
+        img
+          animation: FadeIn 2s
+          -webkit-animation-fill-mode: forwards
+          -moz-animation-fill-mode: forwards
+          -o-animation-fill-mode: forwards
+          -ms-animation-fill-mode: forwards
+          animation-fill-mode: forwards
++keyframes(FadeIn)
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
++keyframes(FadeOut)
+  0%
+    opacity: 1
+  100%
+    opacity: 0

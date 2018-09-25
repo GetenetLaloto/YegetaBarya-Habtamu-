@@ -1,0 +1,51 @@
+metadata:
+  title: "Yegeta Barya Habtamu Ministry"
+  description: "Yegeta Barya Habtamu Ministry Website"
+  keywords: "Yegeta Barya, Ministry"
+  url: "http://www.yegetabaryahabtamu.org"
+  image: "/resources/images/church/img_2.JPG"
+css: /resources/css/index.css
+js:
+  - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+  - //cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js
+  - /resources/js/index.js
+javascript_partials:
+  - partial_assets/js/navbar.js
+  - partial_assets/js/slideshow.js
+sass_partials:
+  - "defaults.sass"
+  - "sizes.sass"
+  - "mixins.sass"
+  - "navbar.sass"
+  - "home_message.sass"
+  - "slideshow.sass"
+  - "button_link.sass"
+  - "social_bar.sass"
+navbar:
+  title: "Yegeta Barya Habtamu Gospel Ministry"
+  links:
+    Home: '/'
+    # About: '/about'
+    Ministry: '/ministry'
+    Discipleship: '/discipleship'
+    Media: '/media'
+    Contact: '/contact'
+    Gallery: '/gallery'
+home_message:
+  message: '"And he said to them, “Go into all the world and proclaim the gospel to the whole creation.""'
+  sub: '- Mark 16:15'
+slideshow:
+  image:
+    - /resources/images/church/img_0.JPG
+    - /resources/images/church/img_1.JPG
+    - /resources/images/church/img_2.JPG
+    - /resources/images/church/img_3.JPG
+    - /resources/images/church/img_4.JPG
+    - /resources/images/church/img_5.JPG
+    - /resources/images/church/img_6.JPG
+social_bar:
+  facebook: 'https://www.facebook.com/habty.bayssa'
+  instagram: 'https://www.instagram.com/yegta1/'
+  whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
+  youtube: 'https://www.youtube.com/channel/UCb9PgMG5ZrnWRriBhL5y2yQ'
+  twitter: 'https://twitter.com/hg_gutta'

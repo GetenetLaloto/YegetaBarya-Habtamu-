@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home
+permalink: /
+data_file: 'index'
+---
+
+{% include home_message.html %}
+{% include slideshow.html %}
+<div class='link-button-wrapper'>
+  {% include button_link.html link="https://www.paypal.me/Habtamug" text="Donate"%}
+</div>
+{% include social_bar.html %}
+<div class='form-links'>
+  <div class='link-button-wrapper'>
+    {% include button_link.html link="/prayer" text="Prayer" alt=true%}
+  </div>
+  <div class='link-button-wrapper'>
+    {% include button_link.html link="/testimony" text="Testimony" alt=true%}
+  </div>
+</div>

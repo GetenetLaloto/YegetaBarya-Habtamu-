@@ -1,0 +1,110 @@
+nav
+  background-color: rgba(157, 204, 255, 1)
+  width: 100%
+  padding: 15px 0
+  +large-devices
+    display: flex
+    align-items: center
+    justify-content: space-around
+  &::before
+    content: ""
+    display: block
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -100
+  position: relative
+  a
+    color: $font-main-color
+    transition: color 300ms
+    &:hover
+      text-decoration: none
+      color: $link-hover-color
+  .title-wrapper
+    display: flex
+    align-items: center
+    flex-wrap: wrap
+    .title
+      font-family: 'Playfair Display', serif
+      text-align: center
+      width: calc(100% - 60px)
+      font-size: 1.75rem
+      +medium-devices
+        width: 70%
+      +large-devices
+        width: 100%
+    .menu-icon
+      margin: auto
+      +large-devices
+        display: none
+      .hamburger-menu
+        width: 32px
+        height: 32px
+        cursor: pointer
+        position: relative
+        display: inline-block
+        .line
+          background-color: $font-main-color
+          width: 100%
+          height: 5px
+          position: absolute
+          transition: 300ms
+          &.top
+            margin-top: 4px
+          &.middle
+            margin-top: 13px
+          &.bottom
+            margin-top: 22px
+  .nav-list-wrapper
+    width: 100%
+    margin-top: 7px
+    position: absolute
+    z-index: 100
+    background-color: rgba(157, 204, 255, 1)
+    height: 0
+    bottom: 0
+    transition: height 400ms, bottom 400ms
+    overflow-y: hidden
+    .nav-links
+      padding: 0
+      text-align: center
+      margin: 0
+      .nav-item
+        font-size: 1.25rem
+        margin: 15px 0
+        list-style-type: none
+    +large-devices
+      bottom: initial !important
+      height: auto !important
+      z-index: initial
+      position: relative
+      max-width: 60%
+      display: inline-block
+      .nav-links
+        font-size: initial
+        margin: initial
+        display: flex
+        justify-content: center
+      .nav-item
+        display: inline-block
+        .nav-link
+          font-size: 1.2rem
+          padding: .5rem 1rem
+  &.active
+    position: fixed
+    z-index: 100
+    +large-devices
+      position: initial
+      z-index: auto
+    .title-wrapper
+      .menu-icon .hamburger-menu .line
+        &.top
+          transform: rotate(45deg)
+          margin-top: 50%
+        &.middle
+          opacity: 0
+        &.bottom
+          transform: rotate(-45deg)
+          margin-top: 50%

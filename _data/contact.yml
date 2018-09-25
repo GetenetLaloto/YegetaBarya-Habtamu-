@@ -1,0 +1,41 @@
+metadata:
+  title: "Yegeta Barya Habtamu Ministry Contact"
+  description: "Yegeta Barya Habtamu Ministry Contact"
+  keywords: "Yegeta Barya, Ministry, contact, information, address, phone number, location"
+  url: "http://www.yegetabaryahabtamu.org"
+  image: "/resources/images/church/img_2.JPG"
+css: /resources/css/contact.css
+js:
+  - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+  - /resources/js/contact.js
+javascript_partials:
+  - partial_assets/js/navbar.js
+sass_partials:
+  - 'defaults.sass'
+  - 'sizes.sass'
+  - 'mixins.sass'
+  - 'navbar.sass'
+  - 'contact.sass'
+  - 'social_bar.sass'
+navbar:
+  title: "Yegeta Barya Habtamu Gospel Ministry"
+  links:
+    Home: '/'
+    # About: '/about'
+    Ministry: '/ministry'
+    Discipleship: '/discipleship'
+    Media: '/media'
+    Contact: '/contact'
+    Gallery: '/gallery'
+contact:
+  query: 'q=New+York,New+York,NY&zoom=8'
+  title: Contact Information
+  text:
+    - 'Mobile: +1347-839-7738'
+    - 'E-Mail: gutta123.hg@gmail.com'
+social_bar:
+  facebook: 'https://www.facebook.com/habty.bayssa'
+  instagram: 'https://www.instagram.com/yegta1/'
+  whatsapp: 'https://api.whatsapp.com/send?phone=13478397738'
+  youtube: 'https://www.youtube.com/channel/UCb9PgMG5ZrnWRriBhL5y2yQ'
+  twitter: 'https://twitter.com/hg_gutta'

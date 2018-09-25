@@ -1,0 +1,57 @@
+metadata:
+  title: "Yegeta Barya Habtamu Ministry Gallery"
+  description: "Yegeta Barya Habtamu Ministry Gallery"
+  keywords: "Yegeta Barya, Ministry, church images, gallery, photos"
+  url: "http://www.yegetabaryahabtamu.org"
+  image: "/resources/images/church/img_2.JPG"
+css: /resources/css/gallery.css
+js:
+  - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+  - //cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js
+  - /resources/js/gallery.js
+javascript_partials:
+  - partial_assets/js/navbar.js
+  - partial_assets/js/gallery.js
+sass_partials:
+  - 'defaults.sass'
+  - 'sizes.sass'
+  - 'mixins.sass'
+  - 'navbar.sass'
+  - 'gallery.sass'
+navbar:
+  title: "Yegeta Barya Habtamu Gospel Ministry"
+  links:
+    Home: '/'
+    # About: '/about'
+    Ministry: '/ministry'
+    Discipleship: '/discipleship'
+    Media: '/media'
+    Contact: '/contact'
+    Gallery: '/gallery'
+gallery:
+  images:
+    - /resources/images/Yegeta/yegetaPic/img0.JPG
+    - /resources/images/Yegeta/yegetaPic/img1.JPG
+    - /resources/images/Yegeta/yegetaPic/img2.JPG
+    - /resources/images/Yegeta/yegetaPic/img3.JPG
+    - /resources/images/Yegeta/yegetaPic/img4.JPG
+    - /resources/images/Yegeta/yegetaPic/img5.JPG
+    - /resources/images/Yegeta/yegetaPic/img6.JPG
+    - /resources/images/Yegeta/yegetaPic/img7.JPG
+    - /resources/images/Yegeta/yegetaPic/img8.JPG
+    - /resources/images/Yegeta/yegetaPic/img9.JPG
+    - /resources/images/Yegeta/yegetaPic/img10.JPG
+    - /resources/images/Yegeta/yegetaPic/img11.JPG
+    - /resources/images/Yegeta/yegetaPic/img12.JPG
+    - /resources/images/Yegeta/yegetaPic/img13.JPG
+    - /resources/images/Yegeta/yegetaPic/img14.JPG
+    - /resources/images/Yegeta/yegetaPic/img15.JPG
+    - /resources/images/Yegeta/yegetaPic/img16.JPG
+    - /resources/images/Yegeta/yegetaPic/img17.JPG
+    - /resources/images/Yegeta/yegetaPic/img18.JPG
+    - /resources/images/Yegeta/yegetaPic/img19.JPG
+    - /resources/images/Yegeta/yegetaPic/img20.JPG
+    - /resources/images/Yegeta/yegetaPic/img21.JPG
+    - /resources/images/Yegeta/yegetaPic/img22.JPG
+    - /resources/images/Yegeta/yegetaPic/img23.JPG
+    - /resources/images/Yegeta/yegetaPic/img24.JPG

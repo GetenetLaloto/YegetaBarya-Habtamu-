@@ -1,0 +1,27 @@
+metadata:
+  title: "Yegeta Barya Habtamu Ministry Testimony Form"
+  description: "Yegeta Barya Habtamu Ministry Testiony Form"
+  keywords: "Yegeta Barya, Ministry, Testimony, form, email, contact"
+  url: "http://www.yegetabaryahabtamu.org"
+  image: "/resources/images/church/img_2.JPG"
+css: /resources/css/testimony.css
+js:
+  - https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+  - /resources/js/testimony.js
+javascript_partials:
+  - partial_assets/js/navbar.js
+sass_partials:
+  - 'defaults.sass'
+  - 'sizes.sass'
+  - 'mixins.sass'
+  - 'navbar.sass'
+navbar:
+  title: "Yegeta Barya Habtamu Gospel Ministry"
+  links:
+    Home: '/'
+    # About: '/about'
+    Ministry: '/ministry'
+    Discipleship: '/discipleship'
+    Media: '/media'
+    Contact: '/contact'
+    Gallery: '/gallery'
