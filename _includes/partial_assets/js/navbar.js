@@ -7,7 +7,8 @@ $(document).ready(()=>{
       const fixedContent = name === 'nav-bar active' ? 'initial' : 'fixed';
       $nav.find('.nav-list-wrapper').css({'height': menuHeigt});
       // NOTE: content must be in a wrapper to stop it from moving when navbar is active
-      $('.content-wrapper').toggleClass('active-nav');
+      // $('.content-wrapper').toggleClass('active-nav');
+      $('.body-wrapper').toggleClass('nav-active');
       return 'active';
     });
   });

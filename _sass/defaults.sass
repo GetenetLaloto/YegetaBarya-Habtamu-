@@ -17,9 +17,8 @@ body
   font-weight: 400
   line-height: 1.5
   background-color: $body-color
-  background-color: #f4f4f2
   font-family: 'Raleway', sans-serif
-  color: #63605b
+  color: $font-main-color
 
 *, *::before, *::after
   box-sizing: inherit
@@ -29,4 +28,24 @@ p, h1, h2, h3, h4, h5, h6
 
 a
   text-decoration: none
-  color: black
+  color: $font-main-color
+  &:hover
+    color: $link-hover-color
+
+.body-wrapper
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+  &.nav-active
+    height: 100vh
+    overflow: hidden
+    +large-devices
+      height: initial
+      overflow: initial
+  .content-wrapper
+    margin-bottom: auto
+  footer
+    width: 100%
+    text-align: center
+    padding: 10px 0
+    font-size: .7rem

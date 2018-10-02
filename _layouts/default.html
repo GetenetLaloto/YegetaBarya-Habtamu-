@@ -17,9 +17,12 @@ layout: compress
 </head>
 <body>
 
-{% include navbar.html %}
-<div class='content-wrapper'>
-  {{ content }}
+<div class='body-wrapper'>
+  {% include navbar.html %}
+  <div class='content-wrapper'>
+    {{ content }}
+  </div>
+  {% include footer.html%}
 </div>
 
 
