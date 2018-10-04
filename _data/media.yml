@@ -10,11 +10,13 @@ js:
   - /resources/js/media.js
 javascript_partials:
   - partial_assets/js/navbar.js
+  - partial_assets/js/youtube_videos.js
 sass_partials:
   - 'defaults.sass'
   - 'sizes.sass'
   - 'mixins.sass'
   - 'navbar.sass'
+  - 'youtube_videos.sass'
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"
   links:
@@ -25,3 +27,21 @@ navbar:
     Media: '/media'
     Contact: '/contact'
     Gallery: '/gallery'
+youtube_videos:
+  ids:
+    - Sgl5dC8i3dw
+    - fe_r3j0GWsE
+    - 5aEJU8cMNtU
+    - DJra9Lm2T_o
+    - eEaPItmhLyI
+    - 7lKgWknw50s
+    - O_wtDaCrPco
+    - wfbZsDwb3PI
+    - cdux7day2E4
+    - kNnsTPqgChM
+    - mG1egtVFIr4
+    - BZrGJXBB3jc
+    - CorkWc75BjY
+    - GrBldrz-6qI
+    - MgKVZGMvBkY
+    - L34fCGtgUeY
