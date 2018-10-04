@@ -4,11 +4,17 @@ title: Media
 permalink: /media
 data_file: media
 ---
-
-<div class="video">
-  <iframe  src="https://www.youtube.com/embed/BZrGJXBB3jc" frameborder="0" allowfullscreen></iframe>
-  <iframe src="https://www.youtube.com/embed/CorkWc75BjY" frameborder="0" allowfullscreen></iframe>
-  <iframe src="https://www.youtube.com/embed/GrBldrz-6qI" frameborder="0" allowfullscreen></iframe>
-  <iframe src="https://www.youtube.com/embed/MgKVZGMvBkY" frameborder="0" allowfullscreen></iframe>
-  <iframe src="https://www.youtube.com/embed/L34fCGtgUeY" frameborder="0" allowfullscreen></iframe>
+<div class='message-wrapper'>
+  <div class='line top'></div>
+  <!-- TODO: youtube subscribe should be a simple link instead of calling api -->
+  <div class='message'>
+    <h3>
+      Subscribe
+    </h3>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" data-channelid="UCb9PgMG5ZrnWRriBhL5y2yQ" data-layout="default" data-count="hidden"></div>
+  </div>
+  <div class='line bottom'></div>
 </div>
+
+{% include youtube_videos.html %}

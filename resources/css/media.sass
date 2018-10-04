@@ -3,3 +3,21 @@ data_file: media
 ---
 
 {% include partial_assets/sass_partials.sass %}
+
+.message-wrapper
+  width: 100%
+  text-align: center
+  .message
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    h3
+      margin-bottom: 5px
+  .line
+    border-top: 1px solid #e3dfd7
+    width: 60%
+    &.top
+      margin: 10px auto 25px
+    &.bottom
+      margin: 25px auto 10px
