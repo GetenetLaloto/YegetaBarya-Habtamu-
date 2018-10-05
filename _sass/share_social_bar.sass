@@ -1,0 +1,25 @@
+.share-social-bar
+  display: flex
+  justify-content: center
+  .icon
+    margin: 7px 10px
+    width: 32px
+    height: 32px
+    -webkit-mask-size: cover
+    mask-size: cover
+    -webkit-marsk-size: cover
+    transition: background-color .3s
+    background-color: $font-main-color
+    cursor: pointer
+    &:hover
+      background-color: $link-hover-color
+    &.facebook-icon
+      -webkit-mask: url("/resources/images/svg/facebook.svg") 50% 50% no-repeat
+    &.twitter-icon
+      -webkit-mask: url("/resources/images/svg/twitter.svg") 50% 50% no-repeat
+    &.whatsapp-icon
+      -webkit-mask: url("/resources/images/svg/whatsapp.svg") 50% 50% no-repeat
+    &.instagram-icon
+      -webkit-mask: url("/resources/images/svg/instagram.svg") 50% 50% no-repeat
+    &.youtube-icon
+      -webkit-mask: url("/resources/images/svg/youtube.svg") 50% 50% no-repeat
