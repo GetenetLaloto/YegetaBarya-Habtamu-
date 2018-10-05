@@ -17,12 +17,12 @@ function changeVideo(id){
   player.loadVideoById(id);
   window.location.hash = id;
   $('.active-video').removeClass('active-video');
-  $(`#${id}`).addClass('active-video');
+  $(`.${id}`).addClass('active-video');
 };
 
 function singlePlaylistItem(id, thumbnail, title){
   return (`
-    <div id='${id}' class='thumbnail' style='background-image:url("${thumbnail}")' onClick='changeVideo("${id}")'>
+    <div class='thumbnail ${id}' style='background-image:url("${thumbnail}")' onClick='changeVideo("${id}")'>
     </div>
   `)
 }
@@ -45,7 +45,7 @@ $(document).ready(()=>{
     })
     .then(function(data) {
       makePlaylistItems(data.items);
-      $(`#${first_id}`).addClass('active-video');
+      $(`.${first_id}`).addClass('active-video');
       window.location.hash = first_id;
     });
 });
