@@ -11,12 +11,14 @@ js:
 javascript_partials:
   - partial_assets/js/navbar.js
   - partial_assets/js/youtube_videos.js
+  - partial_assets/js/share_social_bar.js
 sass_partials:
   - 'defaults.sass'
   - 'sizes.sass'
   - 'mixins.sass'
   - 'navbar.sass'
   - 'youtube_videos.sass'
+  - 'share_social_bar.sass'
 navbar:
   title: "Yegeta Barya Habtamu Gospel Ministry"
   links:

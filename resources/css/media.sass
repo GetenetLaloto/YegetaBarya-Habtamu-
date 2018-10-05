@@ -12,8 +12,28 @@ data_file: media
     flex-direction: column
     align-items: center
     justify-content: center
-    h3
-      margin-bottom: 5px
+    .subscribe-message
+      font-size: 1.2rem
+      transition: background-color .3s
+      display: flex
+      justify-content: center
+      align-items: center
+      padding: 5px 10px
+      background-color: #FF0000
+      color: white
+      border-radius: 5px
+      .youtube-icon
+        display: inline-block
+        margin-right: 7px
+        width: 32px
+        height: 32px
+        -webkit-mask-size: cover
+        mask-size: cover
+        -webkit-marsk-size: cover
+        background-color: white
+        -webkit-mask: url("/resources/images/svg/youtube.svg") 50% 50% no-repeat
+      &:hover
+        background-color: #d90000
   .line
     border-top: 1px solid #e3dfd7
     width: 60%
@@ -21,3 +41,6 @@ data_file: media
       margin: 10px auto 25px
     &.bottom
       margin: 25px auto 10px
+  .small-line
+    width: 30%
+    margin: 10px auto 

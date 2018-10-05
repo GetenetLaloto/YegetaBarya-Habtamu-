@@ -46,15 +46,6 @@ $(document).ready(()=>{
     .then(function(data) {
       makePlaylistItems(data.items);
       $(`#${first_id}`).addClass('active-video');
+      window.location.hash = first_id;
     });
 });
-
-
-// TODO: cache the json to avoid api calls and update the cache manually (video info rarely change, i assume)
-// fetch(`https://www.googleapis.com/youtube/v3/videos?part=snippet&id=${youtube_ids}&key=AIzaSyBmApRVTyrATOLw9-OBk-lSHppn-bFngyE`)
-//   .then(function(response) {
-//     return response.json();
-//   })
-//   .then(function(myJson) {
-//     console.log(JSON.stringify(myJson));
-//   });

@@ -4,17 +4,21 @@ title: Media
 permalink: /media
 data_file: media
 ---
+
 <div class='message-wrapper'>
   <div class='line top'></div>
-  <!-- TODO: youtube subscribe should be a simple link instead of calling api -->
   <div class='message'>
-    <h3>
-      Subscribe
-    </h3>
-    <script src="https://apis.google.com/js/platform.js"></script>
-    <div class="g-ytsubscribe" data-channelid="UCb9PgMG5ZrnWRriBhL5y2yQ" data-layout="default" data-count="hidden"></div>
+    <a class='subscribe-message' href='https://www.youtube.com/channel/UCb9PgMG5ZrnWRriBhL5y2yQ'><div class='youtube-icon'></div> Subscribe</a>
   </div>
   <div class='line bottom'></div>
 </div>
-
 {% include youtube_videos.html %}
+
+<div class='message-wrapper'>
+  <div class='message'>
+    <div class='line top'></div>
+    <h3>Share</h3>
+    {% include share_social_bar.html %}
+  </div>
+  <div class='line bottom'></div>
+</div>
